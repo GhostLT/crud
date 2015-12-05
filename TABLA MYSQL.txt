@@ -1,0 +1,16 @@
+TABLA MYSQL
+
+mysql>
+CREATE TABLE datospersonales(
+cedula varchar(15) NOT NULL,
+nombres varchar(30) NOT NULL,
+apellidos varchar(30) NOT NULL,
+fecha_nac date NOT NULL,
+telefono varchar(20) NOT NULL,
+dir varchar(100) NOT NULL,
+PRIMARY KEY (cedula)
+);
+
+mysql>
+INSERT INTO datospersonales(
+(cedula,nombres,apellidos,fecha_nac,telefono,dir) VALUES (987899,'sami saet','bula griego','1998-10-86',7899789,'barrio frances');
